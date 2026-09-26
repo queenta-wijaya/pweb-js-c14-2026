@@ -88,7 +88,7 @@ button:hover{
     margin-top:14px;
 }
 
-.errmsg{
+.error{
     color:#dc2626;
     font-size:13px;
     text-align:center;
@@ -97,4 +97,50 @@ button:hover{
 
 .hidden{
     display:none;
+}
+
+@media (max-width:480px){
+
+    body{
+        padding:16px;
+    }
+
+    .login-box{
+        padding:24px 18px;
+        border-radius:10px;
+    }
+
+    h1{
+        font-size:22px;
+    }
+
+    h2{
+        font-size:19px;
+    }
+
+    p{
+        font-size:12px;
+    }
+
+    input,
+    button{
+        height:44px;
+        font-size:14px;
+    }
+}
+
+@media (max-width:768px){
+
+    .login-box{
+        max-width:400px;
+        padding:28px 24px;
+    }
+
+    h1{
+        font-size:26px;
+    }
+
+    h2{
+        font-size:22px;
+    }
 }
