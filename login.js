@@ -4,7 +4,7 @@ const errorMessage = document.getElementById("errmsg");
 const loginBtn = document.getElementById("masuk");
 
 if (localStorage.getItem("firstName")) {
-    window.location.href = "index.html";
+    window.location.href = "katalog.html";
 }
 
 loginForm.addEventListener("submit", async (e) => {
@@ -49,7 +49,7 @@ loginForm.addEventListener("submit", async (e) => {
                 user.firstName
             );
 
-            window.location.href = "index.html";
+            window.location.href = "katalog.html";
 
         } else {
 
